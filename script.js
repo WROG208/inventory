@@ -1,5 +1,5 @@
 // Load JSON data and initialize the gallery
-fetch('assets/data.json')
+fetch('https://serene-entremet-154bc8.netlify.app/')
     .then(response => response.json())
     .then(data => {
         const gallery = document.getElementById("gallery");
